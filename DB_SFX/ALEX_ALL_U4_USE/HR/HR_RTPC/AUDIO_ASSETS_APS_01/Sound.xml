@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+<ROOT name="SOUND">
+	<SETTING name="GlobalVolume" value="1.000000" type="0" min="0" max="1" step="0.01" tunable="1" />
+	<SETTING name="FXVolume" value="0.500000" type="0" min="0" max="1" step="0.01" tunable="1" />
+	<SETTING name="MusicVolume" value="0.800000" type="0" min="0" max="1" step="0.01" tunable="1" />
+	<GROUP name="GEARSHIFT">
+		<SETTING name="ResourceName" value="M01_Break" type="2" />
+		<SETTING name="Gain" value="0.450000" type="0" min="0" max="2" step="0.01" tunable="1" />
+		<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+		<SETTING name="3D" value="1" type="1" />
+	</GROUP>
+	<GROUP name="SURFACE">
+		<GROUP name="4">
+			<SETTING name="minSpeed" value="20.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="maxSpeed" value="200.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="MinPitch" value="1.000000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="MaxPitch" value="2.000000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="ResourceName" value="SFX_Vibrator" type="2" />
+			<SETTING name="Gain" value="0.650000" type="0" min="0" max="2" step="0.01" tunable="1" />
+			<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+			<SETTING name="3D" value="1" type="1" />
+		</GROUP>
+	</GROUP>
+	<GROUP name="MOTOR">
+		<SETTING name="DEFAULT" value="0" type="1" min="0" max="5" tunable="1" />
+		<GROUP name="0">
+			<SETTING name="IDLE" value="M01_Motor_Stand_By" type="2" />
+			<SETTING name="RUN" value="M01_Motor" type="2" />
+			<SETTING name="BASS" value="M01_Motor_Bass" type="2" />
+<SETTING name="Gain" value="0.010000" type="0" min="0" max="2" step="0.01" tunable="1" />
+
+		</GROUP>
+	</GROUP>
+	<GROUP name="GEARBOX">
+		<GROUP name="0">
+			<SETTING name="gearDown" value="0.000000" type="0" unit="kph" />
+			<SETTING name="gearUp" value="1.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="MinPitch" value="0.400000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="MaxPitch" value="0.400000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="Gain" value="0.700000" type="0" min="0" max="2" step="0.01" tunable="1" />
+			<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+			<SETTING name="3D" value="1" type="1" />
+		</GROUP>
+		<GROUP name="1">
+			<SETTING name="gearDown" value="1.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="gearUp" value="90.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="MinPitch" value="0.700000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="MaxPitch" value="1.500000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="Gain" value="0.500000" type="0" min="0" max="2" step="0.01" tunable="1" />
+			<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+			<SETTING name="3D" value="1" type="1" />
+		</GROUP>
+		<GROUP name="2">
+			<SETTING name="gearDown" value="85.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="gearUp" value="175.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="MinPitch" value="0.750000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="MaxPitch" value="1.550000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="Gain" value="0.500000" type="0" min="0" max="2" step="0.01" tunable="1" />
+			<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+			<SETTING name="3D" value="1" type="1" />
+		</GROUP>
+		<GROUP name="3">
+			<SETTING name="gearDown" value="170.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="gearUp" value="200.500000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="MinPitch" value="0.800000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="MaxPitch" value="1.600000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="Gain" value="0.500000" type="0" min="0" max="2" step="0.01" tunable="1" />
+			<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+			<SETTING name="3D" value="1" type="1" />
+		</GROUP>
+		<GROUP name="4">
+			<SETTING name="gearDown" value="195.500000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="gearUp" value="230.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="MinPitch" value="0.850000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="MaxPitch" value="1.650000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="Gain" value="0.500000" type="0" min="0" max="2" step="0.01" tunable="1" />
+			<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+			<SETTING name="3D" value="1" type="1" />
+		</GROUP>
+		<GROUP name="5">
+			<SETTING name="gearDown" value="225.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="gearUp" value="300.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="kph" />
+			<SETTING name="MinPitch" value="0.900000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="MaxPitch" value="1.900000" type="0" min="0" max="100" step="0.05" tunable="1" />
+			<SETTING name="Gain" value="0.500000" type="0" min="0" max="2" step="0.01" tunable="1" />
+			<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+			<SETTING name="3D" value="1" type="1" />
+		</GROUP>
+		<GROUP name="6">
+			<SETTING name="gearDown" value="295.500000" type="0" min="0" max="1000" step="0.1" tunable="1" unit="kph" />
+			<SETTING name="gearUp" value="360.000000" type="0" min="0" max="1000" step="0.1" tunable="1" unit="kph" />
+			<SETTING name="MinPitch" value="1.400000" type="0" min="0" max="100" step="0.01" tunable="1" />
+			<SETTING name="MaxPitch" value="3.500000" type="0" min="0" max="100" step="0.01" tunable="1" />
+			<SETTING name="Gain" value="0.500000" type="0" min="0" max="2" step="0.01" tunable="1" />
+			<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+			<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+			<SETTING name="3D" value="1" type="1" />
+		</GROUP>
+	</GROUP>
+	<GROUP name="SKID">
+		<SETTING name="ResourceName" value="M01_Skid" type="2" />
+		<SETTING name="Gain" value="2.000000" type="0" min="0" max="2" step="0.01" tunable="1" />
+		<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+		<SETTING name="2D" value="1" type="1" />
+	</GROUP>
+	<GROUP name="COLLISION1">
+		<SETTING name="ResourceName" value="M01_Collision" type="2" />
+		<SETTING name="Gain" value="2.000000" type="0" min="0" max="2" step="0.01" tunable="1" />
+		<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+		<SETTING name="2D" value="1" type="1" />
+	</GROUP>
+	<GROUP name="PROPELLER">
+		<SETTING name="ResourceName" value="SFX_Fan" type="2" />
+		<SETTING name="Gain" value="10.000000" type="0" min="0" max="15" step="0.01" tunable="1" />
+		<SETTING name="MinDist" value="1.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="MaxDist" value="200.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="RollOff" value="0.100000" type="0" min="0" max="10" step="0.01" tunable="1" />
+		<SETTING name="3D" value="1" type="1" />
+	</GROUP>
+	<GROUP name="RING">
+		<SETTING name="ResourceName" value="SFX_Ring" type="2" />
+		<SETTING name="Gain" value="10.000000" type="0" min="0" max="15" step="0.01" tunable="1" />
+		<SETTING name="MinDist" value="0.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="MaxDist" value="200.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="RollOff" value="0.100000" type="0" min="0" max="10" step="0.01" tunable="1" />
+		<SETTING name="3D" value="0" type="1" />
+	</GROUP>
+	<GROUP name="MAGNET">
+		<SETTING name="ResourceName" value="SFX_Electricity" type="2" />
+		<SETTING name="Gain" value="10.00000" type="0" min="0" max="15" step="0.01" tunable="1" />
+		<SETTING name="MinDist" value="0.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="MaxDist" value="50.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+		<SETTING name="3D" value="1" type="1" />
+	</GROUP>
+	<GROUP name="ARK">
+		<SETTING name="ResourceName" value="SFX_Door" type="2" />
+		<SETTING name="Gain" value="1.000000" type="0" min="0" max="15" step="0.01" tunable="1" />
+		<SETTING name="MinDist" value="0.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="MaxDist" value="200.000000" type="0" min="0" max="1000" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="RollOff" value="0.100000" type="0" min="0" max="10" step="0.01" tunable="1" />
+		<SETTING name="3D" value="1" type="1" />
+	</GROUP>
+	<GROUP name="CHECKPOINT">
+		<SETTING name="ResourceName" value="SFX_Apparition" type="2" />
+		<SETTING name="Gain" value="3.000000" type="0" min="0" max="15" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="MUSIC">
+		<SETTING name="ResourceName" value="Music_Run" type="2" />
+		<SETTING name="Gain" value="0.700000" type="0" min="0" max="2" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="MUSIC_MENU">
+		<SETTING name="ResourceName" value="Music_Loop" type="2" />
+		<SETTING name="Gain" value="0.400000" type="0" min="0" max="2" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="MUSIC_INTRO_CAM">
+		<SETTING name="ResourceName" value="Music_Loop" type="2" />
+		<SETTING name="Gain" value="0.400000" type="0" min="0" max="2" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="MUSIC_OUTRO">
+		<SETTING name="ResourceName" value="Music_Loop" type="2" />
+		<SETTING name="Gain" value="0.400000" type="0" min="0" max="2" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="MUSIC_END">
+		<SETTING name="ResourceName" value="Music_Loop" type="2" />
+		<SETTING name="Gain" value="0.400000" type="0" min="0" max="2" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="COUNTDOWN1">
+		<SETTING name="ResourceName" value="Voice_Start1" type="2" />
+		<SETTING name="Gain" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="COUNTDOWN2">
+		<SETTING name="ResourceName" value="Voice_Start2" type="2" />
+		<SETTING name="Gain" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="COUNTDOWN3">
+		<SETTING name="ResourceName" value="Voice_Start3" type="2" />
+		<SETTING name="Gain" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+	</GROUP>
+	<GROUP name="COUNTDOWNGO">
+		<SETTING name="ResourceName" value="Voice_StartGo" type="2" />
+		<SETTING name="Gain" value="1.500000" type="0" min="0" max="10" step="0.01" tunable="1" />
+	</GROUP>
+	
+	
+	<GROUP name="BOOST">
+		<SETTING name="ResourceName" value="M01_Boost" type="2" />
+		<SETTING name="Gain" value="2.000000" type="0" min="0" max="2" step="0.01" tunable="1" />
+		<SETTING name="MinDist" value="5.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="MaxDist" value="100.000000" type="0" min="0" max="100" step="0.5" tunable="1" unit="meters" />
+		<SETTING name="RollOff" value="1.000000" type="0" min="0" max="10" step="0.01" tunable="1" />
+		<SETTING name="2D" value="1" type="1" />
+	</GROUP>
+	<GROUP name="LISTENER">
+		<SETTING name="SetMaxVolumeDistance" value="5.000000" type="0" />
+		<SETTING name="SetUnitDistance" value="50.000000" type="0" />
+		<SETTING name="SetInteriorSize" value="30.000000" type="0" />
+	</GROUP>
+</ROOT>
