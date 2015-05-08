@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{facebeb6-1393-4827-8b9d-2a48d14ff64b}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.4217233560090703</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>1431094626</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/CrossVitess1.1 {a7965b90-595c-4228-82ea-b2521a48c6f4}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d79ff54c-8658-48a9-a36f-54c7dc2d036d}</destination>
+        </relationship>
+    </object>
+</objects>

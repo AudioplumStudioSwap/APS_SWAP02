@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a834c68e-195d-4feb-b8c9-65a4d2a0e22a}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>6.6703854875283444</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>1431094628</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/M01_Motor_Stand_By {a7708e3e-a430-443f-807f-13ed57c55350}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d79ff54c-8658-48a9-a36f-54c7dc2d036d}</destination>
+        </relationship>
+    </object>
+</objects>
