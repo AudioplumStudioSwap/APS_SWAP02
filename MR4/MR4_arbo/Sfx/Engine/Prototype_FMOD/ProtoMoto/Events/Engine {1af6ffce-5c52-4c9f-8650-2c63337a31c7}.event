@@ -179,7 +179,7 @@
     </object>
     <object class="EventMixerGroup" id="{af2b0f60-daf5-48e1-89d3-9d8e67b2a8ea}">
         <property name="volume">
-            <value>-9</value>
+            <value>-7.5</value>
         </property>
         <property name="name">
             <value>GearShift</value>
