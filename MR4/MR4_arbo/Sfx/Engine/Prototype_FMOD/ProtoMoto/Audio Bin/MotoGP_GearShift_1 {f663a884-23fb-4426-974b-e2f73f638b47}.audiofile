@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{f663a884-23fb-4426-974b-e2f73f638b47}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.46174603174603174</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/MotoGP_GearShift_1 {2db9b111-2b4b-44ad-b903-64baf93e9979}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e46f44fc-a575-46b2-bcc5-489b3af91456}</destination>
+        </relationship>
+    </object>
+</objects>
