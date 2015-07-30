@@ -1,2 +1,0 @@
-Cuvette dans 80-120 Hz pour dégager aigus (sur "layer 2")
-Locut pour éviter freq graves sur "shift"
